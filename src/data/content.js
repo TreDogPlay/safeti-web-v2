@@ -5,7 +5,7 @@ export const empresa = {
   tagline: 'Soporte técnico especializado para empresas',
   descripcion: 'Brindamos servicios de soporte en campo, mantenimiento e infraestructura TI con cobertura en Quintana Roo y respuesta rápida.',
   whatsapp: '529981636866',       // ← número con código país, sin + ni espacios
-  email: 'contacto@safeti.com.mx',
+  email: 'Martin.aglr@hotmail.com',
   telefono: '+52 9981636866',
 }
 
