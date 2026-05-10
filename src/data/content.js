@@ -4,7 +4,7 @@ export const empresa = {
   nombre: 'Safeti',
   tagline: 'Soporte técnico especializado para empresas',
   descripcion: 'Brindamos servicios de soporte en campo, mantenimiento e infraestructura TI con cobertura nacional y respuesta rápida.',
-  whatsapp: '52XXXXXXXXXX',       // ← número con código país, sin + ni espacios
+  whatsapp: '529981636866',       // ← número con código país, sin + ni espacios
   email: 'contacto@safeti.com.mx',
   telefono: '+52 (XX) XXXX-XXXX',
 }
@@ -26,27 +26,33 @@ export const diferenciadores = [
 // ── CASOS DE ÉXITO ── agrega los reales de Safeti ────────────────────────────
 export const casos = [
   {
-    cliente:     'Empresa distribuidora nacional',
-    sector:      'Logística · CDMX',
-    tipo:        'Mantenimiento',
-    descripcion: 'Implementamos un plan de mantenimiento preventivo para 120 equipos de cómputo distribuidos en 3 sucursales, reduciendo las fallas críticas significativamente.',
-    resultado:   'Tiempo de inactividad reducido en un 70%',
-  },
-  {
-    cliente:     'Cadena de tiendas de retail',
-    sector:      'Retail · Jalisco',
-    tipo:        'Infraestructura',
-    descripcion: 'Diseño e instalación de red estructurada para 5 puntos de venta, incluyendo cableado Cat6, switches administrables y configuración de firewall.',
-    resultado:   '5 sucursales conectadas en 3 semanas',
-  },
-  {
-    cliente:     'Empresa de servicios financieros',
-    sector:      'Finanzas · Nuevo León',
+    cliente:     'Prymenet',
+    sector:      'Telecomunicaciones · Cancún',
     tipo:        'Soporte en campo',
-    descripcion: 'Atención prioritaria con SLA de 4 horas para 200 usuarios. Gestión de tickets, soporte remoto y visitas programadas quincenales.',
-    resultado:   'SLA cumplido al 98% durante 12 meses',
+    descripcion: 'Soporte técnico especializado para infraestructura BBVA a nivel regional. Atención a fallas en equipos, tabletas híbridas y conectividad en sucursales bancarias con tiempos de respuesta garantizados.',
+    resultado:   'Cobertura activa en sucursales BBVA en Quintana Roo',
   },
-  // Agrega más casos aquí
+  {
+    cliente:     'Alsea',
+    sector:      'Restaurantes · Sureste',
+    tipo:        'Infraestructura y soporte',
+    descripcion: 'Mantenimiento y soporte técnico para la infraestructura tecnológica de marcas como Banorte, Starbucks, Domino\'s y VIPS. Atención a fallas de equipos de punto de venta, redes y periféricos en múltiples unidades.',
+    resultado:   'Múltiples marcas atendidas con respuesta en campo',
+  },
+  {
+    cliente:     'Cadena de restaurantes',
+    sector:      'Alimentos · Quintana Roo',
+    tipo:        'Mantenimiento preventivo',
+    descripcion: 'Planes de mantenimiento preventivo para equipos de cómputo y punto de venta en unidades de Starbucks, Domino\'s y VIPS. Reducción de tiempos de inactividad en horas pico.',
+    resultado:   'Operación continua sin interrupciones en temporada alta',
+  },
+  {
+    cliente:     'Sector bancario regional',
+    sector:      'Finanzas · Caribe Mexicano',
+    tipo:        'Soporte en campo',
+    descripcion: 'Atención a incidencias y requerimientos de personal nuevo ingreso para sucursales bancarias en Cancún y la Riviera Maya. Soporte a tabletas híbridas, equipos de escritorio y conectividad.',
+    resultado:   'Respuesta garantizada en zona hotelera y centro de Cancún',
+  },
 ]
 
 export const clientes = [
@@ -54,13 +60,15 @@ export const clientes = [
 ]
 
 export const marcas = [
-  'Cisco', 'HP', 'Dell', 'Lenovo', 'Fortinet', 'Ubiquiti', 'APC', 'Epson',
+  'BBVA', 'Banorte', 'Starbucks', 'VIPS', 'Dominos',
 ]
 
 export const cobertura = [
-  'Ciudad de México',
-  'Estado de México',
-  'Jalisco',
-  'Nuevo León',
+  'Cancún',
+  'Puerto Morelos',
+  'Playa del carmen',
+  'Isla Mujeres',
+  'Cozumel',
+  'Chetumal',
   // Agrega más estados
 ]
