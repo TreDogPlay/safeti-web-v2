@@ -9,7 +9,7 @@ export default function Cobertura() {
         <div className={`text-center mb-14 fade-up ${visible ? 'visible' : ''}`}>
           <span className="text-safeti-blue text-xs font-semibold uppercase tracking-widest">Cobertura</span>
           <h2 className="text-3xl md:text-4xl font-bold text-safeti-navy mt-3 mb-4">Presencia donde tu empresa opera</h2>
-          <p className="text-gray-500 max-w-lg mx-auto">Técnicos distribuidos estratégicamente para dar respuesta rápida en las principales ciudades del país.</p>
+          <p className="text-gray-500 max-w-lg mx-auto">Técnicos distribuidos estratégicamente para dar respuesta rápida en Quintana Roo.</p>
         </div>
         <div className={`fade-up d1 ${visible ? 'visible' : ''} flex flex-wrap justify-center gap-3 mb-10`}>
           {cobertura.map((estado, i) => (
