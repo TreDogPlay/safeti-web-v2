@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import { empresa } from '../data/content'
 
-const FORMSPREE_ID = 'xxxxxyyy' // ← reemplazar con tu ID de formspree.io
+const FORMSPREE_ID = 'mpqbkzak' // ← reemplazar con tu ID de formspree.io
 
 export default function Contacto() {
   const [ref, visible] = useScrollAnimation()
