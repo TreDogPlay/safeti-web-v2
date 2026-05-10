@@ -4,7 +4,7 @@ import { empresa } from '../data/content'
 const stats = [
   { valor: '10+', label: 'Años de experiencia' },
   { valor: '200+', label: 'Clientes atendidos' },
-  { valor: '15+', label: 'Estados con cobertura' },
+  // { valor: '15+', label: 'Estados con cobertura' },
   { valor: '24/7', label: 'Soporte disponible' },
 ]
 
