@@ -6,7 +6,7 @@ export const empresa = {
   descripcion: 'Brindamos servicios de soporte en campo, mantenimiento e infraestructura TI con cobertura nacional y respuesta rápida.',
   whatsapp: '529981636866',       // ← número con código país, sin + ni espacios
   email: 'contacto@safeti.com.mx',
-  telefono: '+52 (XX) XXXX-XXXX',
+  telefono: '+52 9981636866',
 }
 
 export const servicios = [
